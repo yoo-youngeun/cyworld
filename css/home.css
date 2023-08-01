@@ -1,0 +1,75 @@
+@font-face {
+    font-family: 'DungGeunMo';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/DungGeunMo.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+    box-sizing: border-box;
+    /* position: relative; */
+    font-family: PFStardust;
+    padding: 0px;
+    margin: 0px;
+    color: #C4C4C4;
+    font-size: 11px;
+}
+
+body > div#contentWrap {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-around;
+    /* padding: 20px; */
+}
+
+body > div#contentWrap > div {
+    width: 464px;
+    height: 48px;
+    padding: 20px
+}
+
+body > div#contentWrap > div#videoArea {
+    position: relative;
+    top: 80px;
+    height: 270px;
+}
+
+div.content > p > span {
+    font-family: 'DungGeunMo';
+}
+
+div.content > p > span.title {
+    color: #55B2D4;
+    font-weight: 700;
+    font-size: 13px;
+    font-family: 'Malgun Gothic';
+    
+}
+
+div.content > p > span.subTitle {
+    font-size: 8px;
+    color: #000000;
+    letter-spacing: -8%;
+    margin-left: 3px;
+    font-family: 'Sci Fied Bitmap';
+}
+
+div.content > p#video {
+    position: relative;
+    top: 5px;
+    width: 464px;
+    height: 240px;
+    background-color: #C4C4C4;
+}
+
+p#underL {
+    width: 464px;
+    height: 1px;
+    background: url("../img/under line.png");
+    margin: 5px 0px;
+}
+
+.cont {
+    margin-top: 5px;
+}

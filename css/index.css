@@ -1,0 +1,278 @@
+@font-face {
+    font-family: 'PFStardust';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/PFStardust.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'ChosunGu';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-04@1.0/ChosunGu.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.jejugothic * { 
+ font-family: 'Jeju Gothic', sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+    /* position: relative; */
+    font-family: PFStardust;
+    padding: 0px;
+    margin: 0px;
+    color: #C4C4C4;
+}
+
+body {
+    position: relative;
+    background: url('../img/배경.png');
+}
+
+body > div#containerWrap {
+    position: relative;
+    width: 808px;
+    height: 544px;
+    top: 20px;
+    left: 20px;
+    background: url('../img/회색\ 있는\ 이미지\ png.png');
+}
+
+body > div#containerWrap > div#container {
+    width: 768px;
+    height: 508px;
+    top: 38px;
+    left: 40px;
+    border-radius: 10px;
+}
+
+/* header */
+body > div#containerWrap > div#container > div#header {
+    display: flex;
+    /* justify-content: space-between; */
+    position: relative;
+    width: 691px;
+    height: 22px;
+    top: 24px;
+    left: 80px;
+    align-items: flex-end;
+    color: #55B2D4;
+}
+
+body > div#containerWrap > div#container> div#header > p {
+    height:15px;
+    color: #55B2D4;
+}
+
+body > div#containerWrap > div#container> div#header > p > span {
+    color: inherit;
+}
+
+body > div#containerWrap > div#container> div#header > p#visitor {
+    position: relative;
+    width: 131px;
+    height: 15px;
+    display: flex;
+    justify-content: space-around;
+    font-size: 9px;
+    top: 8px;
+}
+
+body > div#containerWrap > div#container> div#header > p#title {
+    position: relative;
+    width:192px;
+    height: 21px;
+    font-weight: 600;
+    top: 0px;
+    left: 72px;
+} 
+
+body > div#containerWrap > div#container> div#header > p#settings {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    width: 83px;
+    height: 18px;
+    font-size: 13px;
+    top: 6px;
+    left: 272px;
+    align-items: flex-start;
+    color: #000000;
+    cursor: pointer;
+} 
+
+body > div#containerWrap > div#container> div#header > p#settings > span.setT {
+    width: 78px;
+}
+
+body > div#containerWrap > div#container> div#header > p#settings > span.al {
+    width: 4px;
+    height: 6px;
+    font-size: 0.3px;
+    margin-top: 5px;
+    color: #FF6400;
+}
+
+/*body wrap*/
+body > div#containerWrap > div#container > div#bodyWrap {
+    position: relative;
+    display: flex;
+    top: 46px;
+    left: 32px;
+}
+
+
+/* profile */
+div#profileWrap {
+    position: relative;
+    width: 208px;
+    height: 440px;
+}
+
+div#profileWrap > div#profile {
+    width: 208;
+    height: 440px;
+    background-color: white;
+    border-radius: 10px;
+    padding-top: 20px;
+    border: 1px solid #000000;
+    display: flex;
+    position: relative;
+    flex-wrap: wrap;
+    /* justify-content: center; */
+    flex-direction: column;
+    align-items: center;
+}
+
+div#profileWrap > div#profile > div {
+    /* position: relative; */
+    display: block;
+}
+
+div#profileWrap > div#profile  > div#profile_image {
+    width: 148px;
+    height: 133px;
+    background: url("../img/image\ box.png");
+}
+
+div#profileWrap > div#profile  > div#image_under {
+    width: 148px;
+    height: 1px;
+    background: url("../img/image_under\ line.png");
+    margin: 15px 0px;
+}
+
+div#profileWrap > div#profile > div#profile_txt {
+    display: flex;
+    flex-wrap: wrap;
+    width: 148px;
+    height: 72px;
+    font-size: 9px;
+}
+
+div#profileWrap > div#profile > div#profile_txt > p {
+    width: 148px;
+    height:12px;
+    font-size: 9px;
+}
+
+div#profileWrap > div#profile > div#profile_txt > p > span::before {
+    width: 4px;
+    height:4px;
+    margin-right: 8%;
+}
+
+div#profileWrap > div#profile > div#profile_txt > p.name > span::before {
+    content: url("../img/face-black-18dp.png");
+}
+
+div#profileWrap > div#profile > div#profile_txt > p.phone > span::before {
+    content: url("../img/phone.png");
+}
+
+div#profileWrap > div#profile > div#profile_txt > p.email > span::before {
+    content: url("../img/email.png");
+}
+
+div#profileWrap > div#profile > div#profile_txt > p.instagram > span::before {
+    content: url("../img/insta.png");
+}
+
+
+/*mood*/
+div#profileWrap > div#profile > div#moodWrap {
+    position: relative;
+    top: 100px;
+    width: 141px;
+    height: 41px;
+    font-size: 11px;
+}
+
+div#profileWrap > div#profile > div#moodWrap > p#moodTitle {
+    width: 59px;
+    font-family: "SUITE-Regular" !important;
+    height: 15px;
+}
+
+div#profileWrap > div#profile > div#moodWrap > select#mood {
+    width: 140px;
+    font-family: "ChosunGu" !important;
+    height: 18px;
+    opacity: 0.6;
+    margin-top: 5px;
+    font-size: 11px;
+}
+
+/*콘텐츠*/
+div#contentWrap {
+    position: relative;
+    /* top: 46px;
+    left: 32px; */
+    width: 524px;
+    height: 440px;
+    background-color: white;
+    margin-left: 5px;
+    border-radius: 10px;
+    border: 1px solid #000000;
+}
+
+div#contentWrap > iframe {
+    width: 100%;
+    height:100%;
+}
+
+/*menu*/
+div#menuWrap {
+    width: 60px;
+    height: 98px;
+    position: relative;
+    left: 100%;
+    top: -380px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+}
+
+div#menuWrap > p {
+    width: 60px;
+    height:30px;
+    border: 1px solid #0F465E;
+    vertical-align: bottom;
+    font-size: 12px;
+    line-height: 27px;
+    text-align: center;
+    border-radius: 0px 5px 5px 0px;
+    cursor: pointer;
+    background-color: #298EB5;
+    color: #FFFFFF;
+}
+
+.active {
+    background-color: #FFFFFF !important;
+    color: #000000 !important;
+}
+
+span.todayCnt {
+    color: #FF6400;
+}

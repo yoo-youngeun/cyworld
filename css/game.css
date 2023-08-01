@@ -1,0 +1,199 @@
+@font-face {
+    font-family: 'DungGeunMo';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/DungGeunMo.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'ChosunGu';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-04@1.0/ChosunGu.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+    box-sizing: border-box;
+    /* position: relative; */
+    font-family: PFStardust;
+    padding: 0px;
+    margin: 0px;
+    color: #C4C4C4;
+    font-size: 13px;
+    overflow: hidden;
+}
+
+button {
+    cursor: pointer
+}
+
+div#contentWrap {
+    width: 524px;
+    height: 440px;
+    border-radius: 10px;
+    /* padding: 20px; */
+}
+
+div#contentWrap > div.titleWrap  {
+    padding: 20px 0px 0px 20px
+}
+
+div.titleWrap > span {
+    font-family: 'DungGeunMo';
+}
+
+div.titleWrap  > span.title {
+    color: #55B2D4;
+    font-weight: 700;
+    font-size: 13px;
+    font-family: 'Malgun Gothic';
+    
+}
+
+div.titleWrap  > span.subTitle {
+    font-family: 'Sci Fied Bitmap';
+    font-size: 8px;
+    letter-spacing: -8%;
+    color: #000000;
+    margin-left: 3px;
+    font-weight: 400;
+}
+
+div#titleWrap> span {
+    font-family: 'DungGeunMo';
+}
+
+div#titleWrap > span.title {
+    font-family: 'ChosunGu';
+    color: #55B2D4;
+    font-weight: 500;
+    font-size: 13px;
+    
+}
+
+div#titleWrap > span.subTitle {
+    font-family: 'ChosunGu';
+    font-size: 8px;
+    color: #000000;
+    margin-left: 3px;
+}
+
+div#contentWrap > p#underL {
+    width: 464px;
+    height: 1px;
+    background: url("../img/under line.png");
+    margin: 5px 20px;
+}
+
+
+div#contentWrap > div.content {
+    width: 524px;
+    height: 380px;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+}
+
+div#contentWrap > div.content > div.game {
+    width: 222px;
+    height: 168px;
+    background-color: #F6F6F6;
+    border: 1px solid #999999;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+div#contentWrap > div.content > div.game > p {
+    margin: 5px 0px;
+    font-size: 11px;
+}
+
+div#contentWrap > div.content > div.game > p.icon {
+    width: 40px;
+    height: 20px;
+    background: url("../img/game_1.png");
+}
+
+div#contentWrap > div.content > div#lotto > p.icon {
+    width: 36px;
+    height: 30px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background: url("../img/game_2.png");
+}
+
+div#contentWrap > div.content > div.game > p.gameTit {
+    color: #000000;
+    font-weight: 700;
+    line-height: 13.3px;
+}
+
+div#contentWrap > div.content > div.game > p.gameCot {
+    font-size: 10px;
+    line-height: 13.3px;
+}
+
+div#contentWrap > div.content > div.game > p.gameCot > span {
+    font-size: inherit;
+}
+
+div#contentWrap > div.content > div.game > p.searchTab {
+    width: 83%;
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+div#contentWrap > div.content > div.game input[type='text'] {
+    width: 136px;
+    height: 24px;
+    padding: 0px 5px;
+    font-size: 11px;
+    line-height: 14.63px;
+    border: 1px solid #000000;
+    border-radius: 5px;
+}
+
+div#contentWrap > div.content > div.game button {
+    width: 38px;
+    height: 24px;
+    background-color: #FFFFFF;
+    border: 1px solid #000000;
+    border-radius: 5px;
+    color: #000000;
+    font-size: 11px;
+    line-height: 14.63px;
+    font-weight: 700;
+}
+
+div#contentWrap > div.content > div.game button#lotButt {
+    width: 62px;
+}
+
+div#contentWrap > div.content > div.game > p.lottoNum {
+    width: 130px;
+    height: 21px;
+    border-radius: 8px;
+    border: 1px solid #000000;
+    background-color: #FFE400;
+    color: #000000;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+div#contentWrap > div.content > div.game > p.lottoNum > span {
+    color: #000000;
+    font-size: 10px;
+    line-height: 13.3px;
+    font-weight: 700;
+}
+
+

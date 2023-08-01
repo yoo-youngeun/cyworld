@@ -1,0 +1,127 @@
+
+* {
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+    color: #999999;
+    font-size: 11px;
+    overflow: hidden;
+    line-height: 14.63px;
+}
+
+div#contentWrap {
+    width: 524px;
+    height: 440px;
+    border-radius: 10px;
+    /* padding: 20px; */
+}
+
+div#contentWrap > div.titleWrap  {
+    padding: 20px 0px 0px 20px
+}
+
+div.titleWrap  > span {
+    font-family: 'DungGeunMo';
+}
+
+div.titleWrap  > span.title {
+    color: #55B2D4;
+    font-weight: 700;
+    font-size: 13px;
+}
+
+div.titleWrap  > span.subTitle {
+    font-size: 8px;
+    color: #000000;
+    letter-spacing: -8%;
+    margin-left: 3px;
+    font-weight: 400;
+}
+
+div#contentWrap > p#underL {
+    width: 464px;
+    height: 1px;
+    background: url("../img/under line.png");
+    margin: 5px 20px;
+}
+
+div#contentWrap > div.content {
+    width: 524px;
+    height: 180px;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    font-size: 11px;
+}
+
+
+div#jukeWrap {
+    display: flex;
+    width: 464px;
+    height: 160px;
+    margin-top: 10px;
+    justify-content: space-around;
+}
+
+div#jukeWrap > div.juke {
+    width: 120px;
+    height: 158px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: space-around; */
+    flex-wrap: wrap;
+}
+
+div#jukeWrap > div.juke > p.jukeImg {
+    width: 120px;
+    height: 120px;
+    background: url("../img/music1.png")
+}
+
+div#jukeWrap > div#juke_2 > p.jukeImg {
+    background: url("../img/music2.png")
+}
+
+div#jukeWrap > div#juke_3 > p.jukeImg {
+    background: url("../img/music3.png")
+}
+
+div#jukeWrap > div.juke > p.jukeTit {
+    color: #0F465E;
+    font-weight: 700;
+    margin-top: 7px;
+} 
+
+div#jukeWrap > div.juke > p.jukeSinger {
+    font-size: 10px;
+    
+} 
+
+table#jukeList {
+    width: 464px;
+    height: 120px;
+    border-collapse: collapse;
+}
+
+table#jukeList tr th { 
+    background-color: #EEEEEE;
+}
+
+table#jukeList tr td {
+    color: #0F465E;
+    border-bottom: 1px dotted #C4C4C4;
+}
+
+table#jukeList tr td:nth-child(1),
+table#jukeList tr td:nth-child(2) {
+    color: #000000;
+    text-align: center;
+}
+
+input[type='checkbox'] {
+    width: 18px;
+    height: 12px;
+}

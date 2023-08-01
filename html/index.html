@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>index</title>
+    <link rel="stylesheet" href="../css/index.css">
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js" integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
+    <script src="../js/index.js"></script>
+</head>
+<body>
+    <div id="containerWrap">
+        <div id="container">
+            <div id="header">
+                <p id="visitor">
+                    <span>TODAY</span>
+                    <span class="todayCnt">0</span>
+                    <span>|</span>
+                    <span>TOTAL</span>
+                    <span>12345</span>
+                </p>
+                <p id="title">사이좋은 사람들, 싸이월드</p>
+                <p id="settings"><span class="setT">사생활보호설정</span><span class="al"> ▶</span></p>
+            </div>
+            <div id="bodyWrap">
+                <div id="profileWrap">
+                    <div id="profile">
+                        <div id="profile_image"></div>
+                        <div id="image_under"></div>
+                        <div id="profile_txt">
+                            <p class="name"><span>이름</span></p>
+                            <p class="phone"><span>Phone</span></p>
+                            <p class="email"><span>E-mail</span></p>
+                            <p class="instagram"><span>인스타그램</span></p>
+                        </div>
+                        <div id="moodWrap">
+                            <p id="moodTitle">오늘의 기분</p>
+                            <select name="mood" id="mood">
+                                <option value="기쁨 😊" selected>기쁨 😊</option>
+                                <option value="슬픔"></option>
+                                <option value="화남"></option>
+                                <option value="분노"></option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+                <div id="contentWrap">
+                    <iframe src="./home.html" frameborder="0"></iframe>
+                </div>
+            </div>
+            <div id="menuWrap">
+                <p class="menu active" id="menu_home">홈</p>
+                <p class="menu" id="menu_juke">쥬크박스</p>
+                <p class="menu" id="menu_game">게임</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

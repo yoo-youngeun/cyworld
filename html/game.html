@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/game.css">
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js" integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
+    <script src="../js/game.js"></script>
+</head>
+<body>
+    <div id="contentWrap">
+        <div class="titleWrap">
+            <span class="title">GA ME</span> <span class="subTitle">TODAy Choice</span>
+        </div>
+        <p id="underL"></p>
+        <div class="content">
+            <div class="game" id="word">
+                <p class="icon"></p>
+                <p class="gameTit">끝말잇기</p>
+                <p class="gameCot">제시어 : <span id="wordOutput">뉴비즈코드</span></p>
+                <p class="searchTab">
+                    <input type="text" name="wordInput" placeholder="단어를 입력하세요." id="wordInput">
+                    <button onclick="wordCheck()">확인</button>
+                </p>
+                <p class="bott" id="result">결과!</p>
+            </div>
+            <div class="game" id="lotto">
+                <p class="icon"></p>
+                <p class="gameTit">LOTTO</p>
+                <p class="gameCot">버튼을 누르세요.</p>
+                <p class="lottoNum">
+                    <span class="lotN" id="lot0"></span>
+                    <span class="lotN" id="lot1"></span>
+                    <span class="lotN" id="lot2"></span>
+                    <span class="lotN" id="lot3"></span>
+                    <span class="lotN" id="lot4"></span>
+                    <span class="lotN" id="lot5"></span>
+                </p>
+                <button id="lotButt">Button</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
