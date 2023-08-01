@@ -1,2 +1,2 @@
 # cyworld
-mini project
+study javascript
