@@ -7,8 +7,9 @@ HTML, CSS, JavaScript를 활용하여 싸이월드 감성을 살린 레트로 �
 
 ### 🛠 사용 기술
 
-- HTML5 / CSS3 / JavaScript
-- GitHub Pages를 통한 정적 사이트 배포
+- HTML5
+- CSS3
+- JavaScript
 
 ---
 
